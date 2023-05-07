@@ -1,6 +1,6 @@
-*# Neo4j-GDS-Potential-Home-Loan-Defaulters
-*Neo4j-PySpark Proof of Concept
-*The data is made using the fake data generation notebook, you can make your data. (repo in my github)
+# Neo4j-GDS-Potential-Home-Loan-Defaulters
+1. Neo4j-PySpark Proof of Concept
+2. The data is made using the fake data generation notebook, you can make your data. (repo in my github)
 *You have to go to Neo4j, create a blank sandbox and use those credentials when running this notebook. (Bolt url and password from connection details).
 *The data manipulation is being done on Spark as it is difficult to do it on Neo4j, after the transformations, data is fed into Neo4j through Spark-Neo4j connection.
 *You need to install jar files in your Databricks compute to write data from Databricks to Neo4j, I have included the jar files in the repo.
